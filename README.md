@@ -29,3 +29,4 @@ And you will have successfully used the National Park Randomly Generation Micros
 
 UML Sequence Diagram
 
+![alt text](https://github.com/aidansoares23/CS361Project/blob/main/UML%20Diagram(1).png)
