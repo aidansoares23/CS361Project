@@ -9,7 +9,6 @@ Assuming the National Parks app is ready and the user is seeking a random park, 
 def get_random_park_from_microservice(self):
     microservice_url = "http://127.0.0.1:5000/generate_random_park"  # Adjust the URL if needed
     response = requests.get(microservice_url)
-
     if response.status_code == 200:
         data = response.json()
         return data.get("random_park", "Failed to get a random park")
