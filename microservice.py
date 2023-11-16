@@ -1,6 +1,6 @@
 from flask import Flask, jsonify
 from random import choice
-from NP_Program import NationalParks  # Assuming your partner's program is in a file named partner_program.py
+from NP_Program import NationalParks
 
 app = Flask(__name__)
 
