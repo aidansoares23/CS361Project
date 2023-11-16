@@ -26,3 +26,6 @@ print(f"Randomly Generated Park: {random_park}")
 ```
 
 And you will have successfully used the National Park Randomly Generation Microservice to print a random park for your user!
+
+UML Sequence Diagram
+
