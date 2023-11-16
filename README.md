@@ -19,9 +19,10 @@ def get_random_park_from_microservice(self):
 
 
 One way to call this method may be
-`#if user has selected random park...
+```python
+#if user has selected random park...
 random park = self.get_random_park_from_microservice()
 print(f"Randomly Generated Park: {random_park}")
-`
+```
 
 And you will have successfully used the National Park Randomly Generation Microservice to print a random park for your user!
