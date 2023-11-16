@@ -6,7 +6,7 @@ The command `python NP_rng.py` will start a local development server. Now that t
 
 Assuming the National Parks app is ready and the user is seeking a random park, they will enter `1` or `generate random park` into the command line. This will prompt the program to begin searching for a park. One way to do this is creating a method to request a random park and save the response into a new variable. Here is an example method that requests a park and a save the response.
 
-`def get_random_park_from_microservice(self):
+def get_random_park_from_microservice(self):
     microservice_url = "http://127.0.0.1:5000/generate_random_park"  # Adjust the URL if needed
     response = requests.get(microservice_url)
 
@@ -14,7 +14,7 @@ Assuming the National Parks app is ready and the user is seeking a random park, 
         data = response.json()
         return data.get("random_park", "Failed to get a random park")
     else:
-        print("Failed to connect to the microservice")`
+        print("Failed to connect to the microservice")
 
 
 One way to call this method may be
