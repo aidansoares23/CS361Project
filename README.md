@@ -14,8 +14,8 @@ Assuming the National Parks app is ready and the user is seeking a random park, 
         data = response.json()
         return data.get("random_park", "Failed to get a random park")
     else:
-        print("Failed to connect to the microservice")
-`
+        print("Failed to connect to the microservice")`
+
 
 One way to call this method may be
 `#if user has selected random park...
