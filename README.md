@@ -2,7 +2,7 @@
 
 To request data, the microservice must be ran locally. Save NP_rng.py in your directory with your National Park app, and then navigate to your terminal. Once in your terminal, change directories until you have arrived at the working directory that the apps are saved here. Here, we will run the app.
 
-The command `python NP_rng.py` will start a local development server. Now that that microservice is up, we can begint to make requests. 
+The command `python NP_rng.py` will start a local development server. Now that that microservice is up, we can begin to make requests. 
 
 Assuming the National Parks app is ready and the user is seeking a random park, they will enter `1` or `generate random park` into the command line. This will prompt the program to begin searching for a park. One way to do this is creating a method to request a random park and save the response into a new variable. Here is an example method that requests a park and a save the response.
 
